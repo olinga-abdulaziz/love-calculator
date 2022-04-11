@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Love Calculator | HOME</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section>
+        <article>
+            <header>
+                <h1>Love Calculator</h1>
+                <div>
+                    <span>&hearts;</span>
+                    <span>&hearts;</span>
+                    <span>&hearts;</span>
+                </div>
+            </header>
+            <p class="txtE">Write two names in the text input bellow to calculate how much they love each other </p>
+            <main class="main">
+                <form action="">
+                    <div class="form-group">
+                        <label for="">Person 1 Name</label> <br>
+                        <input type="text" class="p1" id="p1">
+                    </div>
+                    <br>
+                    <div class="form-group">
+                        <label for="">Person 2 Name</label> <br>
+                        <input type="text" class="p2" id="p2">
+                    </div>
+                    <div class="form-group">
+                        <center>
+                        <button class="btnCalculate"> <span class="btnHerat">&hearts;</span> Calculate <span class="btnHerat">&hearts;</span></button>
+                        </center>
+                    </div>
+                </form>
+            </main>
+            
+            <div class="progZone" id="progZone">
+                <br>
+                <center>
+                    <font>Calculating ....</font>
+                    <progress class="prog"></progress>
+                </center>
+            </div>
+            <div class="resultGround">
+                <p class="textR">Person 1 loves person 2 80%</p>
+            </div>
+            <center>
+                <h1 class="pers">80%</h1>
+            </center>
+        </article>
+    </section>
+    <script src="index.js"></script>
+</body>
+</html>

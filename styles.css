@@ -1,0 +1,126 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  background-color: cadetblue;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+article{
+    width: 80%;
+    background-color: white;
+    height: 90vh;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px gray;
+    padding: 10px 20px;
+}
+article header{
+    display: flex;
+    justify-content: space-between;
+}
+article header h1{
+    color: pink;
+    background-color: gray;
+    padding: 10px;
+    width: 200px;
+    border-radius: 10px;
+}
+article header div span{
+    font-size: 40px;
+    color: pink;
+}
+.form-group{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main{
+    background-color: rgb(245, 232, 234);
+    padding: 30px;
+    border-radius: 20px;
+}
+.form-group input{
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+    border: none;
+    background-color: pink;
+    outline: solid 1px rgb(240, 159, 172);
+    padding-left: 16px;
+}
+.txtE{
+    color: gray;
+}
+.btnCalculate{
+    width: 70%;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 5px;
+    background-color: pink;
+    border: none;
+    cursor: pointer;
+}
+.btnCalculate:hover{
+    background-color: rgb(233, 51, 81);
+    color: white;
+}
+
+.btnHerat{
+    color: red; 
+}
+.prodHide{
+    display: none;
+}
+.progZone{
+    width: 70%;
+    height: 6vh;
+    background-color: rgb(245, 232, 234);
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    display: none;
+}
+.progZone font{
+    color: gray;
+}
+.prog{
+    width: 68%;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+.resultGround{
+    background-color: rgb(245, 232, 234);
+    width: 90%;
+    height: 8vh;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-top: 4px;
+    display: none;
+}
+.textR{
+    margin-top: 20px;
+    color: green;
+}
+.pers{
+    display: none;
+}
+
+@media only screen and (max-width:650px) {
+    article{
+        width: 100%;
+    }
+    .form-group{
+        width: 100%;
+    }
+}
