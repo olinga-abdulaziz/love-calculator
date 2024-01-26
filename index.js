@@ -21,6 +21,13 @@ function calculateLove() {
     if(n1 ==="" | n2 ===""){
         alert('All fields are required !!')
         return
+    }else
+    if(n1 === n2){
+        setTimeout(()=>{
+        pers.classList.remove('pers')
+        pers.innerHTML="100%" 
+        progZone.classList.add('progZone')
+    },6000)
     }
 
     progZone.classList.remove('progZone')
