@@ -8,6 +8,7 @@ let name2=document.getElementById('p2')
 
 btnCalculate.addEventListener('click',(e)=>{
     e.preventDefault();
+    pers.innerHTML="";
     calculateLove();
 })
 
