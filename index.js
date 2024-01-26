@@ -22,7 +22,7 @@ function calculateLove() {
         alert('All fields are required !!')
         return
     }else
-    if(n1 === n2){
+    if(n1 == n2){
         setTimeout(()=>{
         pers.classList.remove('pers')
         pers.innerHTML="100%" 
